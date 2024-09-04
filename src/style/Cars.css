@@ -1,0 +1,171 @@
+/* General styles for all devices */
+.card_1 {
+  height: 20rem;
+  width: 100%;
+  background-color: white;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card_main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about_para {
+  text-align: justify;
+}
+
+#cab3 {
+  height: 19rem;
+  width: 100%;
+}
+
+.cars_main_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.carss div {
+  width: calc(30%);
+  margin-bottom: 2rem;
+}
+
+.btn {
+  width: 100%;
+}
+
+.img_car:hover {
+  transform: scale(1.035);
+}
+
+.carss {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Responsive styles */
+
+/* For tablets and small desktops */
+@media (max-width: 1200px) {
+  .carss div {
+      width: calc(45%);
+  }
+
+  .carss {
+      height: auto;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 768px) {
+  .carss div {
+      width: 100%;
+  }
+
+  .carss {
+      height: auto;
+  }
+
+  .card_1 {
+      height: auto;
+      margin-bottom: 1.5rem;
+  }
+
+  #cab3 {
+      height: auto;
+  }
+
+  .about_para {
+      text-align: left;
+  }
+}
+
+
+.div p{
+text-align: justify;
+} 
+
+
+/* General styles for the car section */
+.car_section {
+  display: flex;
+  flex-direction: column; /* Stack items vertically on smaller screens */
+  align-items: center; /* Center items horizontally */
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0 1rem; /* Add some padding for smaller screens */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Flexbox styles for larger screens */
+@media (min-width: 768px) {
+  .car_section {
+    flex-direction: row; /* Arrange items horizontally on larger screens */
+    justify-content: space-around; /* Space out items */
+  }
+
+  .car_section div {
+    width: 40%; /* Maintain 40% width on larger screens */
+  }
+}
+
+/* Style for images to be responsive */
+img {
+  max-width: 100%; /* Ensure images don’t overflow their container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline spacing */
+}
+
+/* Style adjustments for headings */
+.swift{
+  margin-top: 1rem; /* Adjust top margin */
+  text-align: center; /* Center-align headings */
+}
+
+/* Responsive text styling for h6 */
+.journey {
+  text-align: justify; /* Justify text for better readability */
+  margin-top: 1rem;
+  padding: 0 1rem; /* Add padding to avoid text touching edges on smaller screens */
+}
+
+/* Media queries for smaller screens */
+@media (max-width: 767px) {
+  .car_section div {
+    width: 100%; /* Full width for items on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+  }
+
+  .h6 {
+    padding: 0; /* Remove padding on very small screens */
+  }
+}
+
+
+
+
+/* @media screen and (min-device-width: 800px) and (max-device-width: 1500px) { 
+  #swift_car{
+    margin-top: 60%;
+    display: none;
+  }
+}
+
+
+@media screen and(max-width:1500px) {
+  #swift_car{
+    margin-top: 60%;
+    display: none;
+  }
+} */
+
+.journey{
+  line-height: 1.5rem;
+}

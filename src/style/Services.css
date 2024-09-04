@@ -1,0 +1,86 @@
+/* Icon styling */
+.icon {
+    font-size: 60px;
+    color: #059294;; /* Add a primary color to icons */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Icon hover effect */
+.icon:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    color: #0056b3; /* Darken the icon color on hover */
+}
+
+/* Main container for services */
+.services_div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 20px; /* Adds space between items */
+    padding: 20px; /* Add some padding around the services */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for the section */
+}
+
+/* Individual service box styling */
+.services_inner {
+    width: 30%;
+    margin-bottom: 20px; /* Adds some space below each service for smaller screens */
+    background: #fff; /* White background for each service */
+    padding: 20px; /* Adds padding inside each service box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for services */
+.services_inner:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Darken shadow on hover */
+}
+
+/* Heading styling */
+.container h1 {
+    color: #333; /* Dark color for heading */
+    font-weight: bold;
+}
+
+/* Paragraph styling */
+.para {
+    text-align: justify;
+    color: #555; /* Softer color for text */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Tablet responsiveness */
+@media (max-width: 992px) {
+    .services_inner {
+        width: 45%; /* Two services per row on tablets */
+    }
+
+    .icon {
+        font-size: 55px; /* Slightly smaller icons */
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 576px) {
+    .services_inner {
+        width: 100%; /* One service per row on mobile */
+    }
+
+    .icon {
+        font-size: 50px; /* Smaller icons on mobile */
+    }
+}
+
+/* Heading padding adjustments */
+#heading_center {
+    padding-top: 10rem;
+}
+
+@media screen and (max-width: 850px) {
+    #heading_center {
+        padding-top: 5rem;
+    }
+}

@@ -1,0 +1,39 @@
+.carousel-item  img{
+    width: 100vw;
+    height:40rem;
+
+}
+
+
+@media only screen and (max-width: 450px) {
+    .carousel-item  img{
+        width: 100vw;
+        height:13rem;
+    
+    }
+  }
+
+
+  @media screen and (min-device-width: 450px) and (max-device-width: 768px) { 
+
+    .carousel-item  img{
+        width: 100vw;
+        height:20rem;
+    
+    }
+}
+
+
+/* Custom styles for the carousel control icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Set the icon background color to black */
+  border-radius: 50%; /* Optional: Add a rounded effect to the icons */
+  padding: 10px; /* Optional: Add padding for a better visual effect */
+}
+
+/* Optional: Adjust icon hover effect */
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: #333; /* Slightly lighter shade on hover */
+}

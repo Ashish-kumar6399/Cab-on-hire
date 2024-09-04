@@ -1,0 +1,138 @@
+.bg {
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/Best-BMWs.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .bg {
+        height: 25rem;
+        background-attachment: scroll; /* Allow the image to scroll on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .bg {
+        height: 20rem;
+        background-attachment: scroll;
+        background-size: cover; /* Adjust the background size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .bg {
+        height: 15rem;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: top; /* Align the background image to the top */
+    }
+}
+
+
+#heading_bg{
+    padding-top: 15%;
+}
+
+
+.contain_2 {
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    height: auto;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.about_us {
+    width: 45%;
+    padding-right: 2rem;
+}
+
+.img {
+    width: 45%;
+}
+
+.contain_2 {
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    height: auto;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+#cab3 {
+    width: 100%;
+    height: 22rem;
+    object-fit: cover;
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+    max-height: 100%; /* Ensures the image does not exceed its container's height */
+}
+
+/* For tablets and smaller laptops */
+@media only screen and (max-width: 768px) {
+    .contain_2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about_us, .img {
+        width: 100%;
+        padding: 0;
+    }
+
+    #cab3 {
+        margin-top: 1rem;
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 480px) {
+    .contain_2 {
+        margin-top: 3rem;
+        /* flex-direction: column-reverse; */
+    }
+
+    .about_us {
+        font-size: 0.9rem;
+    }
+
+    #cab3 {
+        width: 100%; /* Ensure full width on mobile */
+        height: auto;
+    }
+}
+
+
+.about_us p{
+    text-align: justify;
+}
+
+.contain_2{
+    text-align: center;
+
+}

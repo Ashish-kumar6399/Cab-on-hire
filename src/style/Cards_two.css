@@ -1,0 +1,26 @@
+.tour{
+    margin-bottom: 2.5rem;
+    margin-top: 2rem;
+}
+
+.about_new{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.card-img-top{
+    height: 20rem;
+}
+
+
+.card_two_main_div{
+    margin-bottom: 5rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .card-img-top{
+        height: 13rem;
+    }
+  }

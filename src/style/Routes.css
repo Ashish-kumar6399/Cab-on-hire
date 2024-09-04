@@ -1,0 +1,90 @@
+.Routes_bg{
+    height: 20rem;
+    width: 100%;
+    background-image: url("/src/Img/route.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+
+}
+
+.img_business{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+.Airport_bg {
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/airport_transfer.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+/* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .Airport_bg {
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .Airport_bg {
+        height: 20rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+
+
+/* img:hover{
+    scale: 1.05;
+} */
+
+
+
+.Routes_bgg{
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/route.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+/* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .Routes_bgg {
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .Routes_bgg {
+        height: 20rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+
+
+.about {
+    font-size: 3rem;
+    padding-top: 5rem;
+    font-weight: bolder;
+}

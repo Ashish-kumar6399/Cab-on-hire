@@ -1,0 +1,131 @@
+/* Background Image Section */
+.bgg {
+    height: 20rem;
+    width: 100%;
+    background-image: url("/src/Img/bg_about.jpg");
+    
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+/* Image Styling */
+.img1 {
+    width: 18rem;
+    height: 8rem;
+}
+
+/* Cars Detail Section */
+.cars_detail {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Book Now Button */
+.book {
+    width: 10rem;
+    height: 3rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .cars_detail {
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+
+    .img1 {
+        width: 15rem;
+        height: 6.5rem;
+    }
+
+    .book {
+        width: 9rem;
+        height: 2.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .bgg {
+        height: 15rem;
+    }
+
+    .img1 {
+        width: 12rem;
+        height: 5rem;
+    }
+
+    .cars_detail {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .book {
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .bgg {
+        height: 12rem;
+    }
+
+    .img1 {
+        width: 10rem;
+        height: 4rem;
+    }
+
+    .cars_detail {
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .book {
+        width: 7rem;
+        height: 2rem;
+    }
+
+    .div_book {
+        margin-top: 1rem;
+    }
+
+    h1.about {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h2.text-danger {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+

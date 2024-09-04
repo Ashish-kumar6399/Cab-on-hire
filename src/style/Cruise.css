@@ -1,0 +1,37 @@
+.cruise_bg {
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/cruise.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+@media only screen and (max-width: 1200px) {
+    .cruise_bg {
+        background-attachment: scroll; /* Change to scroll for better performance on smaller screens */
+        height: 25rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .cruise_bg {
+        height: 20rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .cruise_bg {
+        height: 15rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .cruise_bg {
+        height: 12rem;
+    }
+}

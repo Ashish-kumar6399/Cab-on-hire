@@ -1,0 +1,205 @@
+.footer_main {
+    background-color: rgb(46, 44, 43);
+}
+
+.footer_main .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer_main h3 {
+    font-size: 1.5rem;
+}
+
+.footer_main h6 {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer_main ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer_main ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.fa-facebook {
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.fa-facebook:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .footer_main .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_main .col-1 {
+        display: none;
+    }
+
+    .footer_main .col-4,
+    .footer_main .col-3 {
+        flex: 1;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .footer_main h3 {
+        font-size: 1.25rem;
+    }
+
+    .footer_main ul li {
+        font-size: 0.875rem;
+    }
+
+    .fa-facebook {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer_main h3 {
+        font-size: 1.125rem;
+    }
+
+    .footer_main ul li {
+        font-size: 0.75rem;
+    }
+
+    .fa-facebook {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+.kanak{
+    width: 100%;
+
+}
+
+.kanak_first{
+    text-align: start;
+    width: 50%;
+}
+.kanak_second{
+    text-align: end;
+    width: 50%;
+}
+
+.icons_div{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
+}
+
+
+.fa-facebook {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: rgb(24, 119, 242);
+}
+
+.fa-facebook:hover {
+    transform: scale(1.1);
+}
+
+.fa-instagram {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: rgb(228, 64, 95);
+}
+
+.fa-instagram:hover {
+    transform: scale(1.1);
+}
+
+.fa-twitter {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    color: rgb(29, 161, 242);
+}
+
+.fa-twitter:hover {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 350px) {
+    .fa-facebook {
+        font-size: 1.125rem;
+    }
+
+    .fa-instagram {
+        font-size: 1.125rem;
+    }
+
+    .fa-twitter {
+        font-size: 1.125rem;
+    }
+
+    .kanak_second{
+        font-size: 10px;
+    }
+
+    .kanak_first{
+        font-size: 10px;
+    }
+}
+
+
+
+*{
+    font-family: sans-serif;
+}
+
+.col-3 h6{
+    /* padding-right: 10%;
+    padding-left: 10%; */
+}
+
+/* .col-2{
+    width: 100%;
+} */
+
+
+.col-3  li:hover{
+    color: red;
+}
+
+
+@media screen and (max-width: 500px) {
+   .col-3 h6{
+    text-align: justify;
+   }
+}
+
+
+
+@media screen and (min-device-width: 800px) and (max-device-width:2000px) { 
+.Quicklinks_li {
+    margin-left: 20%;
+}
+
+.Quick{
+    margin-left: 10%;
+
+}
+
+}
+
+
+.col-3 h6{
+    text-align: justify;
+}

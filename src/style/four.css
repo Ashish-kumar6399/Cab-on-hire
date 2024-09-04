@@ -1,0 +1,61 @@
+.four_div {
+    /* Ensure the container is responsive */
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 10%; /* Default padding for larger screens */
+}
+
+.four_div h2 {
+    font-weight: bold;
+    text-align: center; /* Center-align for consistency */
+}
+
+.four_div h5 {
+    margin-bottom: 3%;
+    text-align: center; /* Center-align for consistency */
+}
+
+.four_div h4 {
+    font-weight: 600;
+}
+
+.four_div h6 {
+    text-align: justify;
+    margin-bottom: 3%;
+}
+
+/* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+    .four_div {
+        padding: 0 5%; /* Reduced padding for tablets */
+    }
+
+    .four_div h2 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .four_div h5, .four_div h6 {
+        font-size: 1rem; /* Adjust font size for readability on smaller screens */
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .four_div {
+        padding: 0 3%; /* Further reduced padding for mobile devices */
+    }
+
+    .four_div h2 {
+        font-size: 1.2rem; /* Further adjust font size for mobile screens */
+    }
+
+    .four_div h5, .four_div h6 {
+        font-size: 0.9rem; /* Further adjust font size for mobile screens */
+    }
+}
+
+
+.fa-star{
+color: blue;
+display: none;
+}

@@ -1,0 +1,124 @@
+
+
+
+
+
+
+  /* Logo */
+.logo {
+    width: 22%;
+}
+
+/* Navbar inner section */
+.nav_inner_second {
+    justify-content: space-around;
+
+    /* margin-left: 10rem; */
+}
+
+/* .nav_inner_second div {
+    margin-left: 1rem;
+    padding-right: 1rem;
+} */
+
+.main-navbar {
+    background-color:
+    #21323b ;
+    color: black;
+}
+
+
+
+/* Media query for screens below 1000px */
+@media screen and (max-width: 1000px) {
+    .nav_inner_second {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav_inner_second div,
+    .nav_inner_second .dropdown {
+        margin-bottom: 1rem;
+        width: 100%;
+    }
+
+    .nav_inner_second h6,
+    .nav_inner_second .dropdown-toggle {
+        text-align: left;
+        padding-left: 1rem;
+    }
+
+   
+
+    /* .navbar-toggler {
+    } */
+}
+
+#navbarSupportedContent {
+    width: 30rem;
+}
+
+
+.drp_1{
+    margin-top: -0.5rem;
+}
+
+
+
+/* .drp_1:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out;
+} */
+
+
+
+
+/* .drp_1:hover{
+    display: block;
+} */
+
+.Logo_main{
+ width: 20rem;
+}
+
+.book_now_btn{
+    /* background: green; */
+    color: white;
+}
+
+.book_now_div{
+    background: green;
+    height: 2.8rem;
+    width: 8rem;
+    margin-top: 0.5rem;
+}
+
+
+.contain{
+   
+}
+
+#navbar_heading{
+    color: white;
+    padding-top: 1rem;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+#navbar_heading:hover{
+   transform: translateY(-10px);
+}
+
+
+#img_logo{
+    height: 5rem;
+    width: 30%;
+
+}
+
+.book_btn{
+    padding-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+
+

@@ -1,0 +1,41 @@
+.why_main{
+    margin-top: 5rem;
+    height: 100%;
+}
+
+.why_main_inner{
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+
+
+}
+.why_main_inner div{
+    width: 50%;
+    align-items: start;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+
+}
+
+
+.fa-circle-check{
+    font-size: 4.5rem;
+    position: relative;
+    top: -8rem;
+    right: 92%;
+
+
+}
+.fa-money-bill-wave{
+    font-size: 4.5rem;
+    position: relative;
+    top: -8rem;
+    right: 99%;
+
+
+}
+
+
+.fa-circle-check{
+    font-size: 5rem;}
