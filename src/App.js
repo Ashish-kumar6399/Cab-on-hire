@@ -7,7 +7,7 @@ import Air from "./Air";
 import Queens from "./Queens";
 import Movie from './Movie'
 import Caves from './Caves'
-import Services from './services_Page'
+import Services from './Services_Page'
 import Contact from './Contact';
 import Auckland from './Auckland'
 import Tepuia from './Tepuia'
@@ -34,6 +34,12 @@ import Events from './Events'
 
 
 import ScrollToTop from './ScrollToTop'; // Import the ScrollToTop component
+import Aboutnew from './Aboutnew'
+import Testimonial from './Testimonial'
+import Destinations from './Destinations'
+import SchoolTransport from './SchoolTransport'
+import Weedingtransport from './Weedingtransport'
+import Chauffer from './Chauffer'
 
 
 
@@ -52,6 +58,7 @@ function App() {
           <Route path="/queen" element={<Queens/>} />
           <Route path="/movie" element={<Movie/>} />
           <Route path="/caves" element={<Caves/>} />
+          <Route path="/service/:id" element={<Services/>} />
           <Route path="/service" element={<Services/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/fourr" element={<Four/>} />
@@ -74,6 +81,12 @@ function App() {
           <Route path="/dial a driver" element={<Driver/>} />
           <Route path="/school_ball" element={<School/>} />
           <Route path="/events" element={<Events/>} />
+          <Route path="/abb" element={<Aboutnew/>} />
+          <Route path="/testimonial" element={<Testimonial/>} />
+          <Route path="/destination" element={<Destinations/>} />
+          <Route path="/schooltransport" element={<SchoolTransport/>} />
+          <Route path="/weedingtransport" element={<Weedingtransport/>} />
+          <Route path="/chauffer" element={<Chauffer/>} />
          
 
       </Routes>

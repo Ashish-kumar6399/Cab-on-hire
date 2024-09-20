@@ -1,6 +1,6 @@
-* {
+/* * {
     font-family: sans-serif;
-}
+} */
 
 .services_main_div {
     width: 100%;
@@ -45,7 +45,7 @@
 @media screen and (max-width: 800px) {
     .services_main_div {
         flex-direction: column-reverse; /* Change the order */
-        padding: 0 1rem;
+        padding: 0 0.5rem;
     }
 
     .services_main_div_first,
@@ -85,7 +85,7 @@
 @media screen and (max-width: 500px) {
     #cars_flex {
         flex-direction: column; /* Change the order */
-        padding: 0 1rem;
+        padding: 0 0.0rem;
     }
 
     .services_main_div{
@@ -97,16 +97,7 @@
 }
 
 
-/* .car_features_icons{
-    display: flex;
-    justify-content:space-between ;
-    padding-right: 10rem;
-    margin-top: 1rem;
-}
 
-.car_features_icons i {
-    font-size: 1.6rem;
-} */
 
 
 
@@ -170,3 +161,7 @@
 }
 
 
+
+/* .services_main_div_second img{
+width: 100vw;
+} */

@@ -2,15 +2,24 @@ import React from 'react'
 import "./style/Services.css";
 
 function Services() {
+    
   return (
     <>
                 <div className='container'><h1 className='ms-5 mb-5'>SERVICES</h1> </div>
 
 
 
-                <div data-aos="fade-right">
+                                    <div data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500">
+
+
+
 
                 <div className='container  services_div mb-5'>
+
+
+                    
                     
                     <div className='text-center services_inner'>
                             
@@ -62,12 +71,16 @@ function Services() {
                 </div>
 
 
+
                 
 
 
                      {/* second services  */}
 
-                     <div data-aos="fade-left">
+                     <div data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+
 
                      <div className='container  services_div'>
                     
@@ -117,8 +130,8 @@ function Services() {
 
 
                 </div>
+                </div>
 
-                     </div>
 
 
 

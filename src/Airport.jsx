@@ -34,9 +34,8 @@ function Airport() {
     </div>
     <div  className='col-5  text-center'>
       <h1 className='movie_h1'>Airport And City Transfers</h1>
-      <h6 className='movie_h6 '>Certainly! Here's a revised and expanded version of the text:
-
-"Greetings from Cab On Hire, Auckland's premier provider of top-tier airport and transfer services. Whether you're embarking on a business trip, planning a relaxing vacation, or simply in need of a dependable ride to catch your flight, we are here to offer unparalleled service that ensures your airport transfers are smooth, stress-free, and highly efficient. With our commitment to excellence, we make every journey a seamless experience, providing you with the peace of mind that comes with knowing you're in capable hands." </h6>
+      <h6 className='movie_h6 '>
+Cab On Hire, Auckland's premier provider of top-tier airport and transfer services. Whether you're embarking on a business trip, planning a relaxing vacation, or simply in need of a dependable ride to catch your flight, we are here to offer unparalleled service that ensures your airport transfers are smooth, stress-free, and highly efficient. With our commitment to excellence, we make every journey a seamless experience, providing you with the peace of mind that comes with knowing you're in capable hands. </h6>
       <Link className='text-decoration-none' to="/contact">
   <div className='movie_btn rounded mt-4 text-white text-center'> BOOK NOW</div>
 
@@ -103,6 +102,9 @@ function Airport() {
 
 </div>
 
+
+<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+<i class="fa-brands fa-whatsapp  my-float"></i></a>
 
 </>
   )

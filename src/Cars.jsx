@@ -2,12 +2,16 @@ import React from 'react'
 import "./style/Cars.css";
 import img1 from "./Img/cab_vw1.jpg"
 import img2 from "./Img/crysler 3000s.jpg"
-import img3 from "./Img/2022-toyota-camry-se-nightshade-4dr-sedan.jpg"
-import img4 from "./Img/Bmw 330i.jpg"
+import img3 from "./Img/2022-toyota-camry-se-nightshade-4dr-sedan (2).jpg"
+import img4 from "./Img/skoda_superb.jpg"
 import img5 from "./Img/cab_vw8.jpeg"
 import img6 from "./Img/pic_view.jpg"
 import img7 from "./Img/ss.png"
 import img8 from "./Img/skoda_superb.jpg"
+
+
+// import img1 from './Img/skoda_superb.jpg';
+
 
 
 function Cars() {
@@ -16,7 +20,7 @@ function Cars() {
     
              
         
-            <div className='container text-danger fw-bolder mb-5 mt-3'><h5 className='fw-bolder mb-3 mt-3'> AVAILABLE NOW NEAR YOU</h5></div>
+            <div className='container text-danger fw-bold mb-5 mt-3'><h5 className='fw-bolder mb-3 mt-3'> AVAILABLE NOW NEAR YOU</h5></div>
 
        <div className='d-flex flex-wrap container justify-content-around carss '>
 
@@ -28,9 +32,6 @@ function Cars() {
                     <h5 className=" text-danger text-center fw-bolder mt-3"> Volkswagen ID 4</h5>
                     <p className=""> The Volkswagen ID.4 is an all-electric compact SUV produced by Volkswagen.</p>
 
-                    {/* <div className='btn bg-success rounded-pill  '> 
-                      View More                 
-                    </div> */}
                       
             </div>
 
@@ -78,12 +79,10 @@ function Cars() {
            <div className="div">
                    
                     <img src={img4} className="card-img-top rounded img_car" alt="..."/>
-                    <h5 className=" text-danger text-center fw-bolder mt-3">BMW 330i </h5>
-                    <p className="">The BMW 330i is a luxury sedan with a 255-hp turbocharged engine, offering refined handling and advanced technology.</p>
+                    <h5 className=" text-danger text-center fw-bolder mt-3">Skoda Superb</h5>
+                    <p className="">The Skoda Superb combines luxury and performance with a spacious interior. Its sleek design and powerful engine suit both city and long drives.</p>
 
-                    {/* <div className='btn bg-success rounded-pill  '> 
-                      View More                 
-                    </div> */}
+                  
                       
             </div>
 
@@ -97,10 +96,7 @@ function Cars() {
                    technology features.
                    </p>
                      
-                   {/* <div className='btn bg-success rounded-pill  '> 
-                      View More                 
-                    </div>
-                       */}
+                 
            </div>
 
 

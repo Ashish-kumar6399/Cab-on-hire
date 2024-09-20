@@ -1,0 +1,77 @@
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: nowrap; /* Ensure items stay in one row */
+    gap: 15px; /* Spacing between items */
+    /* background-color: #f9f9f9; */
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 150px; /* Flex basis set to 150px for smaller sizing */
+    max-width: 200px; /* Limit the maximum width per service item */
+  }
+  
+  .service-icon {
+    color: #21323b;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .destinations_para {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Media Query for tablets and smaller devices */
+  @media (max-width: 768px) {
+    .services-container {
+      gap: 10px; /* Reduce the gap between items */
+    }
+  
+    .service-item {
+      flex: 1 1 100px; /* Adjust flex basis to reduce width */
+      max-width: 150px; /* Reduce max-width on smaller screens */
+    }
+  
+    .service-icon {
+      font-size: 1.5rem; /* Reduce icon size */
+    }
+  
+    .destinations_para{
+      font-size: 0.9rem; /* Slightly reduce text size */
+    }
+  }
+  
+  /* Media Query for mobile devices */
+  @media (max-width: 480px) {
+    .services-container {
+      gap: 5px; /* Minimize gap on mobile devices */
+    }
+  
+    .service-item {
+      flex: 1 1 80px; /* Further reduce flex basis for small screens */
+      max-width: 120px; /* Reduce max-width further */
+    }
+  
+    .service-icon {
+      font-size: 1.2rem; /* Reduce icon size for mobile */
+    }
+  
+    .destinations_para {
+      font-size: 0.6rem; /* Reduce text size for mobile */
+    }
+  }
+  
+
+
+
+  .div_destination_bg{
+    background-color: #f9f9f9;
+  }

@@ -111,6 +111,13 @@ function Driver() {
 
       <QueryForm/>
 
+      <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+      <i class="fa-brands fa-whatsapp  my-float"></i></a>
+
+      <a href="tel:+91 +64 212845553" class="floatt" target="_blank">
+      <i class="fa-solid fa-phone-volume my-floatt"></i>
+      </a>
+
 
   </>
   )

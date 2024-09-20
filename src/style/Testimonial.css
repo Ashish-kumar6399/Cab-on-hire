@@ -1,0 +1,33 @@
+.main_div_testim{
+    width: 90%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .main_div_testim{
+        width: 95%;
+        height: 90%;
+        
+  }
+  .main_div_testim{
+    margin-left: 2%;
+  }
+}
+
+.bi-star-fill{
+    color: gold;
+    font-size: 20px;
+}
+.star_div{
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+
+}
+
+
+
+.testimonial_main_div{
+    background-color: #00a0a3;
+    
+}

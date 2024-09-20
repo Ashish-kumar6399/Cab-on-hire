@@ -6,8 +6,8 @@ import "./style/Cards_two.css"
 // import img3 from './Img/NZ3.jpg';
 
 
-import img1 from  "./Img/Hobbiton-Movie-Set-17-1200-px.jpg"
-import img2 from  "./Img/hobbiton_waitomo.jpg"
+import img1 from  "./Img/movie_new.webp"
+import img2 from  "./Img/glowworm.webp"
 import img3 from  "./Img/Rotorua new.jpg"
 import img4 from  "./Img/e3.jpg";
 import { Link } from 'react-router-dom'
@@ -22,7 +22,7 @@ function Cards_two() {
       
 
 
-                    <h1 className='text-center fw-bolder  mt-5'>Auckland to Hobbiton  </h1>      
+                    <h1 className='text-center fw-bolder  mt-5'>Our Tours  </h1>      
 
 
                                <div className='d-flex container-fluid tours_div mb-5  '>

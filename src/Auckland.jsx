@@ -1,20 +1,29 @@
 import React from 'react'
-import img1 from  "./Img/Hobbiton-Movie-Set-17-1200-px.jpg"
-import img2 from  "./Img/hobbiton_waitomo.jpg"
-import img3 from  "./Img/hobbitonrotoruatepuia-1.jpg"
-import img4 from  "./Img/imggg_4.jpg";
-import img5 from "./Img/Rotorua img_1.jpg"
-import img6 from "./Img/Rotorua img_2.jpg"
-import img7 from "./Img/Rotorua img_3.jpg"
-import img8 from "./Img/Rotorua img_4.jpg"
+import img1 from  "./Img/movie_new.webp"
+import img2 from  "./Img/glowworm.webp"
+import img3 from  "./Img/Rotorua new.jpg"
+import img4 from  "./Img/e3.jpg";
+import img5 from "./Img/tepuia2.webp"
+import img6 from "./Img/waitapu2.webp"
+import img7 from "./Img/Rotorua img_3.webp"
+import img8 from "./Img/Hobitton_Rotorua.webp"
 import img9 from "./Img/Rotorua img_5.jpg"
 import img10 from "./Img/Rotorua img_6.jpg"
 import img11 from "./Img/Rotorua img_7.jpg"
 import img12 from "./Img/Rotorua img_8.jpg"
 
 
-import img13 from "./Img/waitomo_caves.jpg"
-import img14 from "./Img/waitomorotoruatepuia-1.jpg"
+import img13 from "./Img/hobiton_waitomo.webp"
+import img14 from "./Img/waitomo_tepua_new.webp"
+import img15 from "./Img/queenstreet.webp"
+import img16 from "./Img/cornwall.webp"
+import img17 from "./Img/Paritai.webp"
+import img18 from "./Img/Tamaki.webp"
+import img19 from "./Img/mission-bay-beach-1345684.webp"
+import img20 from "./Img/St Heliers Bay.webp"
+import img21 from "./Img/Achillies Point.webp"
+import img22 from "./Img/Harbour Bridge.webp"
+import img23 from "./Img/Devonport.webp"
 
 
 
@@ -46,7 +55,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton Movie Set Tour</h6>
 
                                         <Link className='text-decoration-none' to="/movie">
-                                        <div className='text-center  text-white tour_btn' id='btnn'>
+                                        <div className='text-center  text-white tour_btn me-2' id='btnn'>
                                             View Tour
                                         </div></Link>
                                         
@@ -61,7 +70,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Waitomo Glowworm Caves Tour</h6>
 
                                         <Link className='text-decoration-none' to="/caves">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -77,7 +86,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Te Puia) </h6>
 
                                         <Link className='text-decoration-none' to="/tepuia">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -92,7 +101,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Wai-O-Tapu) </h6>
 
                                         <Link className='text-decoration-none' to="/wotapu">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -121,7 +130,7 @@ function Auckland() {
       <div class="card-body">
         <h5 class="card-title  fw-bolder">Hobbiton & Waitomo Glowworm Caves Tour</h5>
         <Link className='text-decoration-none'   to="/caves">
-                                        <div className='text-center  text-white tour_btn'  id='btnn_new'>
+                                        <div className='text-center  text-white tour_btn me-2'  id='btnn_new'>
                                             View Tour
                                         </div></Link>
       </div>
@@ -136,7 +145,7 @@ function Auckland() {
         <h5 class="card-title fw-bolder">Waitomo Caves & Rotorua Tour (including Te Puia)</h5>
 
         <Link className='text-decoration-none'  to="/WAITOMO CAVES & ROTORUA">
-                                        <div className='text-center  text-white tour_btn'  id='btnn_new'>
+                                        <div className='text-center  text-white tour_btn me-2'  id='btnn_new'>
                                             View Tour
                                         </div></Link>
         
@@ -174,7 +183,7 @@ function Auckland() {
 </h6>
 
                                         <Link className='text-decoration-none' to="/ROTORUA INCLUDING TE PUIA tour">
-                                        <div className='text-center  text-white tour_btn' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -189,7 +198,7 @@ function Auckland() {
                                         <h6 class="card-title">Rotorua Highlights (including Wai-O-Tapu)</h6>
 
                                         <Link className='text-decoration-none' to="/ROTORUA INCLUDING Wai-O-Tapu tour">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -205,7 +214,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Te Puia)</h6>
 
                                         <Link className='text-decoration-none' to="/tepuia">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -220,7 +229,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Wai-O-Tapu) </h6>
 
                                         <Link className='text-decoration-none' to="/wotapu">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -232,17 +241,17 @@ function Auckland() {
 
 
                 </div>
+
+
                                <div className='d-flex container-fluid tours_div  '>
 
                                                     <div className="card boot_card">
-                                    <img className='rounded' src={img9} class="card-img-top" alt="..."/>
+                                    <img className='rounded' src={img14} class="card-img-top" alt="..."/>
                                     <div class="card-body">
-                                        <h6 class="card-title">Waitomo & Rotorua Tour (including Te Puia)
-
-</h6>
+                                        <h6 class="card-title">Waitomo & Rotorua Tour (including Te Puia)</h6>
 
                                         <Link className='text-decoration-none' to="/waitomo_rotorua_tepuia">
-                                        <div className='text-center  text-white tour_btn' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -257,7 +266,7 @@ function Auckland() {
                                         <h6 class="card-title">Auckland to Rotorua Tour via Hobbiton (One Way)</h6>
 
                                         <Link className='text-decoration-none' to="/auckland_rotorua_hobbiton_Oneway">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -273,7 +282,7 @@ function Auckland() {
                                         <h6 class="card-title">Auckland to Rotorua Tour via Waitomo Caves (One Way)</h6>
 
                                         <Link className='text-decoration-none' to="/auckland_rotorua_waitomo_Oneway">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -288,7 +297,149 @@ function Auckland() {
                                         <h6 class="card-title">Rotorua Highlights Tour </h6>
 
                                         <Link className='text-decoration-none' to="/rotorua_highlight_tour">
-                                        <div className='text-center  text-white tour_btn'>
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+
+
+                </div>
+
+
+
+                               <div className='d-flex container-fluid tours_div  '>
+
+                                                    <div className="card boot_card">
+                                    <img className='rounded' src={img15} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Queen Street</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                                    <div className="card boot_card">
+                                    <img  className='rounded'  src={img16} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Cornwall Park & One Tree Hill</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                    
+                                                    <div className="card boot_card">
+                                    <img className='rounded' src={img17} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Paritai Drive</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                                    <div className="card boot_card">
+                                    <img className='rounded' src={img18} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Tamaki Drive </h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+                               <div className='d-flex container-fluid tours_div  '>
+
+                                    <div className="card boot_card">
+                                    <img className='rounded' src={img19} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">Mission Bay</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                                    <div className="card boot_card">
+                                    <img  className='rounded'  src={img20} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title">St Heliers Bay</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                    
+                                                    <div className="card boot_card">
+                                    <img className='rounded' src={img21} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title"> Achillies Point </h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+
+
+
+                                                    <div className="card boot_card">
+                                    <img className='rounded' src={img22} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title"> Auckland Harbour Bridge</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -307,7 +458,12 @@ function Auckland() {
 
 
                                         
+                <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+                <i class="fa-brands fa-whatsapp  my-float"></i></a>
 
+                <a href="tel:+91 +64 212845553" class="floatt" target="_blank">
+      <i class="fa-solid fa-phone-volume my-floatt"></i>
+      </a>
 
 
 

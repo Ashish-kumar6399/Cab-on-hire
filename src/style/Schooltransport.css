@@ -1,0 +1,109 @@
+
+#font_icons{
+    font-size: 1.4rem;
+    color: 
+    #059294
+}
+
+
+
+
+
+
+
+
+.wedding_bg {
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/Wedding-Car-Hire-People-Hero-Image.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-blend-mode: darken; /* Blends the overlay with the image */
+}
+
+/* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .wedding_bg {
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .wedding_bg {
+        height: 12rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+
+
+
+
+
+
+.chauffer_bg {
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/chauffer_img.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+}
+
+/* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .chauffer_bg {
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .chauffer_bg {
+        height: 12rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+
+
+
+
+
+
+.School_pickup_bg{
+    height: 30rem;
+    width: 100%;
+    background-image: url("/src/Img/school_pickup_drop.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+}
+
+/* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .School_pickup_bg {
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .School_pickup_bg {
+        height: 12rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}

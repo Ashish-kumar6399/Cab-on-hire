@@ -6,7 +6,9 @@
 
   /* Logo */
 .logo {
-    width: 22%;
+    width: 50%;
+    padding-top: 1rem;
+    font-weight: bolder;
 }
 
 /* Navbar inner section */
@@ -103,11 +105,11 @@
 #navbar_heading{
     color: white;
     padding-top: 1rem;
-    transition: transform 0.3s ease,box-shadow 0.3s ease;
+    /* transition: transform 0.3s ease,box-shadow 0.3s ease; */
 }
-#navbar_heading:hover{
+/* #navbar_heading:hover{
    transform: translateY(-10px);
-}
+} */
 
 
 #img_logo{
@@ -122,3 +124,36 @@
 }
 
 
+
+
+@media screen and (max-width:1200px){
+    .logo {
+        width: 100%;
+        padding-top: 1.3rem;
+       
+    }
+    
+    #img_logo{
+        height: 5rem;
+        width: 50%;
+    
+    }
+
+   
+    
+}
+
+
+@media screen and (max-width:800px){
+    #main_navbar_bootom{
+        margin-bottom: 5rem;
+    }
+    .navbar-expand-xl{
+        padding-bottom: 0;
+        padding-top: 0%;
+    }
+}
+
+#main_navbar_bootom{
+    margin-bottom: 5rem;
+}

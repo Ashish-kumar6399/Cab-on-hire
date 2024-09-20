@@ -1,5 +1,5 @@
 .footer_main {
-    background-color: rgb(46, 44, 43);
+    background-color: #21323b;
 }
 
 .footer_main .container {
@@ -84,6 +84,7 @@
 
 .kanak{
     width: 100%;
+    display: flex;
 
 }
 
@@ -154,9 +155,51 @@
     }
 
     .kanak_first{
-        font-size: 10px;
+        font-size: 15px;
+    }
+
+    .kanak{
+        width: 100%;
+        display: block;
+    
+    }
+
+    .kanak_first{
+        text-align: start;
+        width: 100%;
+    }
+    .kanak_second{
+        text-align: start;
+        width: 100%;
     }
 }
+
+
+
+@media (max-width: 500px) {
+    .kanak{
+        width: 100%;
+        display: block;
+    
+    }
+
+    .kanak_first{
+        text-align: start;
+        width: 100%;
+    }
+    .kanak_second{
+        text-align: start;
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+
+
 
 
 
@@ -201,5 +244,5 @@
 
 
 .col-3 h6{
-    text-align: justify;
+    text-align: start;
 }

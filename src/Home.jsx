@@ -5,6 +5,8 @@ import Cards from './Cards'
 import Cards_two from './Cards_two'
 import Servicess from './Services'
 import Cars from './Cars';
+import Testimonial from './Testimonial'
+import Destinations from './Destinations'
 // import Why from './Why'
 
 
@@ -17,10 +19,15 @@ function Home() {
     <div>
       <Carousel/>
       <About/>
+      <Destinations/>
+
+
       <Cards/>
       <Cards_two/>
+
       <Servicess/>
       <Cars/>
+      <Testimonial/>
       
     </div>
   )

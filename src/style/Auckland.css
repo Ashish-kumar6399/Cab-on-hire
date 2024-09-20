@@ -121,3 +121,23 @@ height: 26rem;
      font-size: 2rem;
     }
  }
+
+
+
+
+
+ /* For tablets and devices with screen width between 768px and 1200px */
+@media (max-width: 1200px) and (min-width: 768px) {
+    .Auck{
+        height: 25rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}
+
+/* For mobile devices with screen width less than 768px */
+@media (max-width: 767px) {
+    .Auck{
+        height: 12rem;
+        background-attachment: scroll; /* Change to scroll for smoother scrolling */
+    }
+}

@@ -14,8 +14,12 @@ function About() {
 
 
     <div class="about_us">
-        <h2 className='mb-4 fw-bolder '>About Us</h2>
-        <p className=' about_para'>Introducing Cab On Hire, the best automobile rental service in Auckland, where we strive to give you an easy and wonderful driving experience. We are dedicated to becoming your first choice for all your transportation needs in the exciting city of New Zealand, having built our name on dependability, professionalism, and customer satisfaction.</p>
+        <h2 className='mb-4  '>About Us</h2>
+        <p className=' about_para '>
+
+
+
+Introducing Cab On Hire, the premier cab booking service in Auckland, where we are committed to providing you with a seamless and enjoyable travel experience. Whether you're commuting for business or leisure, our service is designed to be your go-to choice for all your transportation needs in New Zealand's vibrant city. With a strong reputation for reliability, professionalism, and customer satisfaction, we ensure that your journey with us is always smooth and stress-free.</p>
 
 
 

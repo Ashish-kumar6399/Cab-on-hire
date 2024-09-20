@@ -49,3 +49,41 @@
 #h5_driver{
     margin-top: 3.5rem;
 }
+
+.school_second_div{
+    width: 30%;
+}
+
+.school_First_div{
+    width: 62%;
+}
+
+
+
+
+
+
+
+
+.main_school_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+@media (max-width: 480px) {
+    .main_school_div{
+        display: block;
+        /* justify-content: space-around; */
+    }
+
+    .school_second_div{
+        width: 100%;
+    }
+    
+    .school_First_div{
+        width: 100%;
+    }
+    
+}

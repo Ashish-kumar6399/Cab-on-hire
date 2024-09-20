@@ -1,5 +1,5 @@
 .carousel-item  img{
-    width: 100vw;
+    /* width: 100%; */
     height:40rem;
 
 }
@@ -8,7 +8,7 @@
 @media only screen and (max-width: 450px) {
     .carousel-item  img{
         width: 100vw;
-        height:13rem;
+        height:15rem;
     
     }
   }
@@ -34,6 +34,134 @@
 
 /* Optional: Adjust icon hover effect */
 .carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  background-color: #333; /* Slightly lighter shade on hover */
+.carousel-control-next-icon:hover {/* Slightly lighter shade on hover */
+}
+
+
+
+
+
+.carousel-caption {
+  background: rgba(235, 235, 235, 0.5); 
+  opacity: 0.6;/* Semi-transparent background for better readability */
+  padding: 10px; /* Add padding around the text */
+  border-radius: 5px; /* Optional: Rounded corners */
+}
+
+
+
+/* .div_head{
+  position: absolute;
+  top: 10rem;
+  left: 20rem;
+  background-color: white;
+  opacity: 0.5;
+  height: 10rem;
+  width: 60rem;
+}
+
+
+#div_head_id{
+  opacity: 1;
+} */
+
+
+.div_head {
+  position: absolute;
+  top: 15rem;
+  left: 15rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 8rem;
+  width: 50rem;
+}
+
+.div_head h1 {
+  opacity: 1;
+  font-size: 2rem; /* Base font size for larger devices */
+}
+
+/* Responsive for tablets and smaller devices */
+@media (max-width: 1200px) {
+  .div_head {
+    top: 10rem;
+    left: 10rem;
+    width: 50rem;
+    height: 7rem;
+  }
+
+  .div_head h1 {
+    font-size: 1.8rem; /* Adjust text size for tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .div_head {
+    top: 8rem;
+    left: 5rem;
+    width: 40rem;
+    height: 6rem;
+  }
+
+  .div_head h1 {
+    font-size: 1.6rem; /* Adjust text size for smaller tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .div_head {
+    top: 5rem;
+    left: 1rem;
+    width: 90%; /* Make the div take up most of the screen width */
+    height: auto;
+  }
+
+  .div_head h1 {
+    font-size: 1.4rem; /* Smaller text size for mobile */
+    text-align: center; /* Center-align text for smaller screens */
+  }
+
+
+  #div_head_new{
+    font-size: 1px;
+  }
+}
+
+
+
+/* 
+.carousel-item {
+  position: absolute;
+
+} */
+
+
+@media screen and (min-device-width: 700px) and (max-device-width: 2000px) { 
+  .div_head h1 {
+  
+    margin-top: 5%;
+  }
+
+}
+
+
+.Book_noW_div{
+  position: absolute;
+  top: 24rem;
+  left: 15.6rem;
+  background-color: rgb(65,145,60);
+  height: 3rem;
+  width: 10rem;
+  padding-top: 0.5%;
+
+}
+
+/* .div_head h1{
+  font-weight: bolder
+} */
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 20px;
 }

@@ -101,7 +101,7 @@ function Footer() {
                 </div>
                 <hr className='text-white'/>
 
-                <div className='container d-flex kanak '>
+                <div className='container  kanak '>
                     <p className=' text-white text-start kanak_first'>  2024 CabonHire All rights reserved</p>
                     <p className=' text-white kanak_second'>  Designed and Developed by <span className='text-danger'>   <a className='text-decoration-underlined text-white' href='https://kanakdrishtiinfo.com/' target='blank'>Kanak Drishti Infotech</a> </span></p>
 

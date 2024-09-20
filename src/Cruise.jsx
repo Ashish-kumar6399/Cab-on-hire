@@ -40,7 +40,7 @@ function Cruise() {
     </div>
     <div  className='col-5  text-center'>
       <h1 className='movie_h1'>Cruise Ship Transfers</h1>
-      <h6 className='movie_h6 '>Book your ride with our premium cruise shuttle service, providing convenient transfers for Auckland’s domestic cruise arrivals and departures. Enjoy seamless travel between Auckland Airport, cruise terminals, ferry terminals, and Queens Wharf, ensuring a smooth start or end to your journey. Experience ultimate comfort and privacy with our private cruise transfers, customized exclusively for your needs. We also offer efficient cruise ship transfers to Whangaparaoa and Hibiscus Coast, ensuring a hassle-free experience. Rely on us for reliable and professional Auckland cruise ship transfers.
+      <h6 className='movie_h6 '>Reserve your ride with our premium cruise shuttle service, offering seamless transfers for domestic cruise arrivals and departures in Auckland. Enjoy seamless travel between Auckland Airport, cruise terminals, ferry terminals, and Queens Wharf, ensuring a smooth start or end to your journey. Experience ultimate comfort and privacy with our private cruise transfers, customized exclusively for your needs. We also offer efficient cruise ship transfers to Whangaparaoa and Hibiscus Coast, ensuring a hassle-free experience. 
 </h6>
       <Link className='text-decoration-none' to="/contact">
   <div className='movie_btn rounded mt-4 text-white text-center'> BOOK NOW</div>
@@ -87,7 +87,7 @@ function Cruise() {
        <h4  className='fw-bolder '>Cruise Transfer To Auckland Airport</h4>
 
 
-       <h6 className='mt-4 mb-4 about_para'>Cruise Terminal to Airport – Our pickup procedure at Auckland's Queens Wharf cruise ship terminal is straightforward. We have designated parking near Shed 10, and if permitted, we will enter the terminal with a sign for a cruise meet and greet. Queens Wharf is well-organized, making the process smooth. The procedure at Auckland's Princess Wharf cruise ship terminal is slightly more complex, but we ensure a seamless experience for our passengers.  </h6>
+       <h6 className='mt-4 mb-4 about_para text-capitalize'>Cruise Terminal to Airport – Our pickup procedure at Auckland's Queens Wharf cruise ship terminal is straightforward. We have designated parking near Shed 10, and if permitted, we will enter the terminal with a sign for a cruise meet and greet. Queens Wharf is well-organized, making the process smooth. The procedure at Auckland's Princess Wharf cruise ship terminal is slightly more complex, but we ensure a seamless experience for our passengers.  </h6>
 
        
 
@@ -95,7 +95,8 @@ function Cruise() {
 
 
        
-      
+       <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+      <i class="fa-brands fa-whatsapp  my-float"></i></a>
 
   </div>
 
