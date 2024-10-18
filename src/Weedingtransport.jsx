@@ -41,7 +41,7 @@ function Weedingtransport() {
 
 
       <h6 className='movie_h6  ' style={{"textAlign":"justify"}}>
-      Make your special day even more memorable with our exclusive wedding cab services in Auckland. From elegant transportation for the bride and groom to comfortable rides for your guests, we provide reliable, stylish, and hassle-free transport to ensure everything runs smoothly on your big day. </h6>
+      Make your special day even more memorable with our exclusive wedding cab services in Auckland From elegant transportation for the bride and groom to comfortable rides for your guests, we provide reliable, stylish and hassle-free transport to ensure everything runs smoothly on your big day. </h6>
       <Link className='text-decoration-none' to="/contact">
   <div className='movie_btn rounded mt-4 text-white text-center'> BOOK NOW</div>
 
@@ -74,7 +74,7 @@ function Weedingtransport() {
    </h4>
 
 
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">    Elegant Fleet: </span>  Our wide range of luxurious vehicles includes premium sedans, limousines, and classic cars to match the theme and style of your wedding. </h6>
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">    Elegant Fleet: </span>  Our wide range of luxurious vehicles includes premium sedans, limousines and classic cars to match the theme and style of your wedding. </h6>
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">  Professional Chauffeurs:</span> Our experienced, uniformed chauffeurs provide top-notch service, ensuring you arrive at your destination on time and in style..</h6>
 
@@ -101,7 +101,7 @@ function Weedingtransport() {
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">  1.  Bride & Groom Transport: </span> Arrive in elegance with our premium cars designed to make a grand entrance. Whether it’s to the ceremony or reception, we make sure your journey is flawless.
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">  2. Guest Transport:  </span>  We offer a variety of vehicles to shuttle your guests between venues, hotels, and airports, ensuring they travel comfortably and on time.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">  2. Guest Transport:  </span>  We offer a variety of vehicles to shuttle your guests between venues, hotels and airports, ensuring they travel comfortably and on time.
 
    </h6>
    <h6 className='mt-4 mb-4'><span className="fw-bolder">   3. Honeymoon Transfers: </span>  Begin your honeymoon in style with our exclusive airport transfer services. Enjoy a stress-free journey to start your romantic getaway.
@@ -143,7 +143,7 @@ function Weedingtransport() {
 
 
 
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">  1.  Pre-Wedding Events: </span> Whether it’s an engagement party, rehearsal dinner, or bridal shower, we provide stylish transport for all your pre-wedding events.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">  1.  Pre-Wedding Events: </span> Whether it’s an engagement party, rehearsal dinner or bridal shower, we provide stylish transport for all your pre-wedding events.
    </h6>
    <h6 className='mt-4 mb-4'><span className="fw-bolder">  2. Post-Wedding Transfers:  </span> From the reception to the hotel or airport, our post-wedding transfer services ensure a comfortable end to your celebration.
 
@@ -193,12 +193,14 @@ function Weedingtransport() {
 
 
 
-<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
-<i class="fa-brands fa-whatsapp  my-float"></i></a>
 
-<a href="tel:+91 64 212845553" class="floatt" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp  my-float"></i></a>
+  
+<a href="tel:+64 212845553" class="floatt" target="_blank">
       <i class="fa-solid fa-phone-volume my-floatt"></i>
       </a>
+
 
 
 </>

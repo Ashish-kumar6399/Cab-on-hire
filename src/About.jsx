@@ -19,7 +19,7 @@ function About() {
 
 
 
-Introducing Cab On Hire, the premier cab booking service in Auckland, where we are committed to providing you with a seamless and enjoyable travel experience. Whether you're commuting for business or leisure, our service is designed to be your go-to choice for all your transportation needs in New Zealand's vibrant city. With a strong reputation for reliability, professionalism, and customer satisfaction, we ensure that your journey with us is always smooth and stress-free.</p>
+Introducing Cab On Hire the premier cab booking service in Auckland where we are committed to providing you with a seamless and enjoyable travel experience. Whether you're commuting for business or leisure our service is designed to be your go-to choice for all your transportation needs in New Zealand's vibrant city. With a strong reputation for reliability, professionalism and customer satisfaction, we ensure that your journey with us is always smooth and stress-free.</p>
 
 
 

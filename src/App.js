@@ -33,7 +33,7 @@ import Events from './Events'
 
 
 
-import ScrollToTop from './ScrollToTop'; // Import the ScrollToTop component
+import ScrollToTop from './ScrollToTop';
 import Aboutnew from './Aboutnew'
 import Testimonial from './Testimonial'
 import Destinations from './Destinations'
@@ -53,7 +53,6 @@ function App() {
         <Route index  element={<Home/>}/>
           <Route path="/home" element={<Home/>} />
           <Route path="/about" element={<About/>} />
-          <Route path="/airport" element={<Air/>} />
           <Route path="/airport" element={<Air/>} />
           <Route path="/queen" element={<Queens/>} />
           <Route path="/movie" element={<Movie/>} />
@@ -87,8 +86,6 @@ function App() {
           <Route path="/schooltransport" element={<SchoolTransport/>} />
           <Route path="/weedingtransport" element={<Weedingtransport/>} />
           <Route path="/chauffer" element={<Chauffer/>} />
-         
-
       </Routes>
       <Footer/>
     </BrowserRouter>

@@ -50,20 +50,7 @@
 
 
 
-/* .div_head{
-  position: absolute;
-  top: 10rem;
-  left: 20rem;
-  background-color: white;
-  opacity: 0.5;
-  height: 10rem;
-  width: 60rem;
-}
 
-
-#div_head_id{
-  opacity: 1;
-} */
 
 
 .div_head {
@@ -128,11 +115,7 @@
 
 
 
-/* 
-.carousel-item {
-  position: absolute;
 
-} */
 
 
 @media screen and (min-device-width: 700px) and (max-device-width: 2000px) { 
@@ -155,9 +138,7 @@
 
 }
 
-/* .div_head h1{
-  font-weight: bolder
-} */
+
 
 
 .carousel-control-prev-icon, .carousel-control-next-icon {

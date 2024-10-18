@@ -25,10 +25,10 @@ function Services() {
                             
                     <i class="fa-solid fa-plane icon "></i>
 
-                            <h2>Airport and Transfers</h2>
+                            <h2>Airport  Transfers</h2>
                                 <p className="para">
                                     Enjoy prompt and reliable Airport Transfer services with us.
-                                    Our courteous drivers ensure a smooth transfer, making your
+                                    Our courteous drivers ensure a smooth transfer making your
                                     journey to or from Auckland comfortable and stress-free.
                                 </p>
 
@@ -43,7 +43,7 @@ function Services() {
 
                             </h2>
                                 <p className="para">
-                                Take off on fantastic day trips from Auckland and discover some of the most fascinating things the area has to offer. There is something for everyone, from breathtaking natural settings and enchanted film sets to fascinating underground occurrences and geothermally active marvels.
+                                Discover the best of Auckland with our expertly guided tours From stunning cityscapes to natural wonders, experience the vibrant culture, scenic landscapes and top attractions that make Auckland a must-visit destination.
 
 
                                 </p>
@@ -60,7 +60,7 @@ function Services() {
                                 <p className="para">
                                 Business trips in Auckland offer a blend of professional
                                     opportunities and vibrant city experiences. The city boasts
-                                    modern conference centers, excellent transport links, and a
+                                    modern conference centers, excellent transport links and a
                                     thriving business district.
                                 </p>
 
@@ -88,9 +88,9 @@ function Services() {
                             
                     <i class="fa-solid fa-location-dot icon"></i>
 
-                            <h2>Hobbiton & Waitomo Caves</h2>
+                            <h2> Waitomo Caves</h2>
                                 <p className="para">
-                                The Waitomo and Hobbiton Caves provide a fantastic New Zealand experience. Discover the renowned Hobbiton film set, where the verdant Shire landscapes come to life.
+                                Waitomo Caves is a unique underground wonder in New Zealand, famous for its stunning limestone formations and magical glowworms that illuminate the dark caverns. 
                                 </p>
 
                     </div>
@@ -107,7 +107,7 @@ function Services() {
                                 Long and short routes offer diverse travel experiences to suit
                                 different preferences. Long routes provide extended journeys,
                                 ideal for exploring multiple destinations, experiencing varying
-                                landscapes, and immersing in different cultures. 
+                                landscapes and immersing in different cultures. 
                                 </p>
 
                     </div>
@@ -116,12 +116,12 @@ function Services() {
                             
                     <i class="fa-solid fa-van-shuttle icon"></i>
 
-                            <h2>Luxury Cars/Vans
+                            <h2>Luxury Both Cars and Vans
 
                             </h2>
                                 <p className="para">
-                                Need spacious transportation? Our fleet includes both cab
-                                and cab vans, ensuring we have the perfect vehicle for your
+                                Need spacious transportation? Our fleet includes both Car
+                                and  Vans, ensuring we have the perfect vehicle for your
                                 needs. Trust us for convenient and accommodating travel
                                 experiences.
                                 </p>

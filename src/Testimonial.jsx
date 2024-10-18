@@ -29,11 +29,11 @@ function Testimonial() {
         <h2 className='fw-bold text-center pt-5'>What our clients says</h2>
 
             <Carousel
-  swipeable={false}
-  draggable={false}
+  swipeable={true}
+  draggable={true}
   showDots={true}
   responsive={responsive}
-  ssr={true} // means to render carousel on server-side.
+  ssr={true} 
   infinite={true}
 //   autoPlay={this.props.deviceType !== "mobile" ? true : false}
   autoPlaySpeed={1000}
@@ -41,7 +41,7 @@ function Testimonial() {
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet","desktop" ]}
+  removeArrowOnDeviceType={["tablet","" ]}
 //   deviceType={this.props.deviceType}
   dotListClass="custom-dot-list-style"
   itemClass="carousel-item-padding-40-px"
@@ -55,7 +55,7 @@ function Testimonial() {
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
-    </div>    <p class="card-text">"Exceptional service! The driver was punctual, the car was clean, and the ride was smooth. I felt safe and comfortable throughout the journey. Highly recommend for anyone needing reliable cab service."</p>
+    </div>    <p class="card-text">"Exceptional service! The driver was punctual, the car was clean and the ride was smooth. I felt safe and comfortable throughout the journey. Highly recommend for anyone needing reliable cab service."</p>
     
   </div>
 </div>
@@ -64,7 +64,6 @@ function Testimonial() {
 <div class="card border border-dark mt-4 mb-4 main_div_testim">
   <div class="card-body" id='card_body_new'>
     <h5 class="card-title mt-3">Sarah L.</h5>
-    {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
     <div className=' star_div mb-3'>
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
@@ -72,7 +71,7 @@ function Testimonial() {
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
     </div>
-    <p class="card-text">"Amazing experience! The cab arrived on time, and the driver was very polite and professional. It made my airport transfer stress-free. I’ll definitely use this service again."</p>
+    <p class="card-text">"Amazing experience! The cab arrived on time and the driver was very polite and professional. It made my airport transfer stress-free. I’ll definitely use this service again."</p>
     
   </div>
 </div>
@@ -98,7 +97,7 @@ function Testimonial() {
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
     <i class="bi bi-star-fill"></i>
-    </div>    <p class="card-text">"I’m really impressed by the level of professionalism. The driver was well-mannered, and the car was spotless. The booking process was easy, and I had a fantastic experience overall."</p>
+    </div>    <p class="card-text">"I’m really impressed by the level of professionalism. The driver was well-mannered and the car was spotless. The booking process was easy and I had a fantastic experience overall."</p>
     
   </div>
 </div>

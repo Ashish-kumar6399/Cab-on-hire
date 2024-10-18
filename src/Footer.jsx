@@ -51,11 +51,11 @@ function Footer() {
 
 
                             <Link  className='text-decoration-none text-white' to ="/events">  <li  className='text-capitalize'>  Events </li></Link>
-                            <Link  className='text-decoration-none text-white'  to ="/cruise"> <li  className='text-capitalize '> Cruise Ships</li></Link>
+                            <Link  className='text-decoration-none text-white' to ="/cruise"> <li  className='text-capitalize '> Cruise Ships</li></Link>
                             <Link  className='text-decoration-none text-white' to ="/school_ball"> <li  className='text-capitalize'> School Ball</li></Link>
                             <Link  className='text-decoration-none text-white' to ="/dial a driver">  <li  className='text-capitalize'> Dial A driver</li></Link>
                             <Link  className='text-decoration-none text-white' to ="/concerts">  <li  className='text-capitalize'> Concerts  </li></Link>
-                            <Link  className='text-decoration-none text-white' to ="/airport & transfers"><li  className=' text-capitalize'> Airport and City Transfers</li></Link>
+                            <Link  className='text-decoration-none text-white' to ="/airport & transfers"><li  className=' text-capitalize'> Airport  Transfers</li></Link>
 
                             
                            

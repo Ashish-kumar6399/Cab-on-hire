@@ -1,5 +1,6 @@
 import React from 'react'
 import "./style/Services.css";
+import "./style/Contact.css";
 import QueryForm from './QueryForm';
 
 
@@ -11,7 +12,7 @@ function Contact() {
   return (
     <>
 
-            <div className='bg'>
+            <div className='contact'>
 
                   <h1 className='text-white fw-bolder text-uppercase about text-center ' id='heading_center'>Book Now</h1>
 
@@ -20,12 +21,7 @@ function Contact() {
 
 
 
-            {/* <div className='bg'>
-
-<h1 className='text-white fw-bolder text-uppercase about text-center'>
-       Luxury Cars and Vans
-</h1>
-</div>  */}
+  
       
 
             <QueryForm/>

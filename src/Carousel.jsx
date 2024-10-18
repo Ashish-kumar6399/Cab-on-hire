@@ -1,16 +1,12 @@
 import React from 'react';
 import './style/Carousel.css';
-import img2 from './Img/5.png';
-import img3 from './Img/business_trips_new.jpg';
-import img4 from './Img/Rotorua img_6.jpg';
+
 import img1 from './Img/cruise.jpg';
 import img5 from './Img/city.avif';
-import img6 from './Img/culture.jpg';
-import img7 from './Img/tours_new.webp';
-import img8 from './Img/hobition_movie_new.webp';
+
+import img8 from './Img/carousel_img.webp';
 import img9 from './Img/lord_of_rings.webp';
 import img10 from './Img/Best-BMWs_new.jpg';
-import 'animate.css';
 
 
 function Carousel() {
@@ -35,17 +31,17 @@ function Carousel() {
 
         {/* Fourth Slide */}
         <div className="carousel-item">
-          <img src={img8} className="d-block w-100" alt="Slide 4" />
+          <img src={img5} className="d-block w-100" alt="Slide 4" />
           
            <div className=" container div_head">
-           <h1  data-aos="fade-down" className='  text-white text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold' >Auckland   Tours </span></h1>
+           <h1  data-aos="fade-down" className='  text-black text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold' >Auckland   Tours </span></h1>
            
           </div>
         </div>
 
 
         <div className="carousel-item">
-          <img src={img5} className="d-block w-100" alt="Slide 4" />
+          <img src={img8} className="d-block w-100" alt="Slide 4" />
          
            <div className=" container div_head">
             <h1 className='er data-aos="fade-down"  text-black text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold'> Private Day Tours, School Ball Transfer, Long  and Short Routes </span></h1>
@@ -57,7 +53,13 @@ function Carousel() {
          
            <div className=" container div_head">
            
-            <h1 className='er  data-aos="fade-down" text-black text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold text-dark animate__backInDown'> Visit of the movie set location  for the lord of the rings</span></h1>
+            <h1 className='er  data-aos="fade-down" text-black text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold text-dark animate__backInDown'>Explore the Iconic Lord of the Rings Movie Set
+
+
+
+
+
+</span></h1>
           </div>
         </div>
 
@@ -66,7 +68,7 @@ function Carousel() {
           <img src={img10} className="d-block w-100" alt="Slide 4" />
          
            <div className=" container div_head">
-            <h1 className='er  data-aos="fade-down" text-black' id='div_head_id'><span className='opacity-100  fw-bold' >Cruise ship Transports ,School ball Transfers </span></h1>
+            <h1 className='er  data-aos="fade-down" text-black text-center' id='div_head_id'><span className='opacity-100  text-center text-capitalize fw-bold text-white' >School Pickup And  Drop Off Services</span></h1>
           </div>
         </div>
 

@@ -20,10 +20,10 @@ import img16 from "./Img/cornwall.webp"
 import img17 from "./Img/Paritai.webp"
 import img18 from "./Img/Tamaki.webp"
 import img19 from "./Img/mission-bay-beach-1345684.webp"
-import img20 from "./Img/St Heliers Bay.webp"
+import img20 from "./Img/st hellers.jpg"
 import img21 from "./Img/Achillies Point.webp"
 import img22 from "./Img/Harbour Bridge.webp"
-import img23 from "./Img/Devonport.webp"
+import img23 from "./Img/cliff Road.webp"
 
 
 
@@ -55,7 +55,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton Movie Set Tour</h6>
 
                                         <Link className='text-decoration-none' to="/movie">
-                                        <div className='text-center  text-white tour_btn me-2' id='btnn'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded' id='btnn'>
                                             View Tour
                                         </div></Link>
                                         
@@ -70,7 +70,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Waitomo Glowworm Caves Tour</h6>
 
                                         <Link className='text-decoration-none' to="/caves">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -86,7 +86,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Te Puia) </h6>
 
                                         <Link className='text-decoration-none' to="/tepuia">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -101,7 +101,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Wai-O-Tapu) </h6>
 
                                         <Link className='text-decoration-none' to="/wotapu">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -130,7 +130,7 @@ function Auckland() {
       <div class="card-body">
         <h5 class="card-title  fw-bolder">Hobbiton & Waitomo Glowworm Caves Tour</h5>
         <Link className='text-decoration-none'   to="/caves">
-                                        <div className='text-center  text-white tour_btn me-2'  id='btnn_new'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'  id='btnn_new'>
                                             View Tour
                                         </div></Link>
       </div>
@@ -145,7 +145,7 @@ function Auckland() {
         <h5 class="card-title fw-bolder">Waitomo Caves & Rotorua Tour (including Te Puia)</h5>
 
         <Link className='text-decoration-none'  to="/WAITOMO CAVES & ROTORUA">
-                                        <div className='text-center  text-white tour_btn me-2'  id='btnn_new'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'  id='btnn_new'>
                                             View Tour
                                         </div></Link>
         
@@ -183,7 +183,7 @@ function Auckland() {
 </h6>
 
                                         <Link className='text-decoration-none' to="/ROTORUA INCLUDING TE PUIA tour">
-                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -198,7 +198,7 @@ function Auckland() {
                                         <h6 class="card-title">Rotorua Highlights (including Wai-O-Tapu)</h6>
 
                                         <Link className='text-decoration-none' to="/ROTORUA INCLUDING Wai-O-Tapu tour">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -214,7 +214,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Te Puia)</h6>
 
                                         <Link className='text-decoration-none' to="/tepuia">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -229,7 +229,7 @@ function Auckland() {
                                         <h6 class="card-title">Hobbiton & Rotorua Tour (including Wai-O-Tapu) </h6>
 
                                         <Link className='text-decoration-none' to="/wotapu">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -251,7 +251,7 @@ function Auckland() {
                                         <h6 class="card-title">Waitomo & Rotorua Tour (including Te Puia)</h6>
 
                                         <Link className='text-decoration-none' to="/waitomo_rotorua_tepuia">
-                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -266,7 +266,7 @@ function Auckland() {
                                         <h6 class="card-title">Auckland to Rotorua Tour via Hobbiton (One Way)</h6>
 
                                         <Link className='text-decoration-none' to="/auckland_rotorua_hobbiton_Oneway">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -282,7 +282,7 @@ function Auckland() {
                                         <h6 class="card-title">Auckland to Rotorua Tour via Waitomo Caves (One Way)</h6>
 
                                         <Link className='text-decoration-none' to="/auckland_rotorua_waitomo_Oneway">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -297,7 +297,7 @@ function Auckland() {
                                         <h6 class="card-title">Rotorua Highlights Tour </h6>
 
                                         <Link className='text-decoration-none' to="/rotorua_highlight_tour">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -320,7 +320,7 @@ function Auckland() {
                                         <h6 class="card-title">Queen Street</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -335,7 +335,7 @@ function Auckland() {
                                         <h6 class="card-title">Cornwall Park & One Tree Hill</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -351,7 +351,7 @@ function Auckland() {
                                         <h6 class="card-title">Paritai Drive</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -366,7 +366,7 @@ function Auckland() {
                                         <h6 class="card-title">Tamaki Drive </h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -393,7 +393,7 @@ function Auckland() {
                                         <h6 class="card-title">Mission Bay</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2' id='btnn_2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded' id='btnn_2'>
                                             View Tour
                                         </div></Link>
                                         
@@ -408,7 +408,7 @@ function Auckland() {
                                         <h6 class="card-title">St Heliers Bay</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -424,7 +424,7 @@ function Auckland() {
                                         <h6 class="card-title"> Achillies Point </h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
                                             View Tour
                                         </div></Link>
                                         
@@ -439,18 +439,38 @@ function Auckland() {
                                         <h6 class="card-title"> Auckland Harbour Bridge</h6>
 
                                         <Link className='text-decoration-none' to="">
-                                        <div className='text-center  text-white tour_btn me-2'>
+                                        <div className='text-center  text-white tour_btn me-2  rounded '>
                                             View Tour
                                         </div></Link>
                                         
                                     </div>
                                     </div>
 
+                                    <div>
 
+                                    <div className="card boot_card container">
+                                    <img className='rounded' src={img23} class="card-img-top" alt="..."/>
+                                    <div class="card-body">
+                                        <h6 class="card-title"> Cliff Road</h6>
+
+                                        <Link className='text-decoration-none' to="">
+                                        <div className='text-center  text-white tour_btn me-2  rounded'>
+                                            View Tour
+                                        </div></Link>
+                                        
+                                    </div>
+                                    </div>
+                                    </div>
+
+
+                                
 
 
 
                 </div>
+
+
+                
 
 
 

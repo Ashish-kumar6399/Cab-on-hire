@@ -139,12 +139,19 @@ const QueryForm = () => {
 
 <ul className=' list-unstyled text-dark  ul_form'>
     <li  className='mb-3  text-start  text-centre '> <i class="fa-solid fa-phone icon_query"></i>      +64 212845553</li>
-    <li  className='mb-5  text-start  '> <i class="fa-solid fa-envelope   icon_query"></i>      Resv@cabonhire.com</li>
+    <li  className='mb-5  text-start  '> <i class="fa-solid fa-envelope   icon_query"></i>      cabonhire.com</li>
    
 </ul>
     
 
       </div>
+      <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp  my-float"></i></a>
+  
+<a href="tel:+64 212845553" class="floatt" target="_blank">
+      <i class="fa-solid fa-phone-volume my-floatt"></i>
+      </a>
+
     </div>
   );
 };

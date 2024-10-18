@@ -20,11 +20,8 @@ function Home() {
       <Carousel/>
       <About/>
       <Destinations/>
-
-
       <Cards/>
       <Cards_two/>
-
       <Servicess/>
       <Cars/>
       <Testimonial/>

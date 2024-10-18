@@ -42,7 +42,7 @@ function Chauffer() {
 
 
       <h6 className='movie_h6  ' style={{"textAlign":"justify"}}>
-      Experience luxury, comfort, and reliability with our premium chauffeur cab services in Auckland. Whether you're attending a corporate event, exploring the city, or need a reliable airport transfer, our professional chauffeurs ensure a seamless journey. We offer an elite fleet of vehicles and unmatched service, allowing you to travel in style and on time. </h6>
+      Experience luxury, comfort and reliability with our premium chauffeur cab services in Auckland. Whether you're attending a corporate event, exploring the city or need a reliable airport transfer, our professional chauffeurs ensure a seamless journey. We offer an elite fleet of vehicles and unmatched service, allowing you to travel in style and on time. </h6>
       <Link className='text-decoration-none' to="/contact">
   <div className='movie_btn rounded mt-4 text-white text-center'> BOOK NOW</div>
 
@@ -78,7 +78,7 @@ function Chauffer() {
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">   Professional Chauffeurs: </span>  Our highly-trained, courteous chauffeurs are dedicated to providing top-notch service. With in-depth local knowledge and impeccable driving skills, you’re in safe hands.</h6>
 
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">  Luxurious Fleet: </span> Choose from a range of high-end vehicles, including executive sedans, luxury SUVs, and limousines, all equipped with modern amenities to enhance your experience.</h6>
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">  Luxurious Fleet: </span> Choose from a range of high-end vehicles, including executive sedans, luxury SUVs and limousines, all equipped with modern amenities to enhance your experience.</h6>
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">    Punctual and Reliable:  </span> We understand the importance of time. Our chauffeurs guarantee timely arrivals, making sure you reach your destination comfortably and on schedule.</h6>
 
@@ -105,17 +105,17 @@ function Chauffer() {
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">  1.  Airport Transfers: </span> Enjoy a stress-free journey to and from Auckland Airport with our punctual airport transfer service. We monitor your flight for any delays, ensuring your chauffeur is ready when you land.
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">  2. Corporate Travel:   </span>  Make a lasting impression by arriving in style at your business meetings, conferences, or corporate events. Our chauffeurs provide a professional, comfortable, and discreet service tailored to your business needs.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">  2. Corporate Travel:   </span>  Make a lasting impression by arriving in style at your business meetings, conferences or corporate events. Our chauffeurs provide a professional, comfortable and discreet service tailored to your business needs.
 
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">   3. City Tours: </span>  Explore Auckland’s top attractions in comfort with a private chauffeur. Whether it’s sightseeing, shopping, or dining, we’ll help you make the most of your time in the city.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">   3. City Tours: </span>  Explore Auckland’s top attractions in comfort with a private chauffeur. Whether it’s sightseeing, shopping or dining, we’ll help you make the most of your time in the city.
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">   4. Event Transport: </span>   Attending a special event or celebration? From weddings to concerts and private parties, our chauffeur service ensures you arrive on time and in luxury.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">   4. Event Transport: </span>   Attending a special event or celebration From weddings to concerts and private parties, our chauffeur service ensures you arrive on time and in luxury.
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">   5. VIP & Celebrity Transport: </span> We specialize in transporting high-profile clients, offering security, privacy, and a first-class experience to VIPs, celebrities, and dignitaries.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">   5. VIP & Celebrity Transport: </span> We specialize in transporting high-profile clients, offering security, privacy, and a first-class experience to VIPs, celebrities and dignitaries.
    </h6>
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">   6. Hourly Chauffeur Service: </span> Need a chauffeur on standby? Our hourly chauffeur service allows you to have a driver and luxury vehicle at your disposal for as long as you need, offering flexibility for errands, meetings, and leisure activities.
-   </h6>
+   {/* <h6 className='mt-4 mb-4'><span className="fw-bolder">   6. Hourly Chauffeur Service: </span> Need a chauffeur on standby? Our hourly chauffeur service allows you to have a driver and luxury vehicle at your disposal for as long as you need, offering flexibility for errands, meetings, and leisure activities.
+   </h6> */}
 
 
 
@@ -132,7 +132,7 @@ function Chauffer() {
 
 
 
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">  1. Book Online or Call Us: </span> Use our online booking system or call us directly to reserve your chauffeur service. Choose your vehicle, time, and any special requirements.
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">  1. Book Online or Call Us: </span> Use our online booking system or call us directly to reserve your chauffeur service. Choose your vehicle, time and any special requirements.
    </h6>
    <h6 className='mt-4 mb-4'><span className="fw-bolder">  2.Receive Confirmation:  </span>  After booking, you’ll receive a confirmation with details of your assigned chauffeur and vehicle.
 
@@ -178,7 +178,7 @@ function Chauffer() {
 
 
 
-<h6 className='mt-4 mb-4'><span className="fw-bolder">   </span>Make your next journey a memorable one with our premium chauffeur services in Auckland. Whether for business or leisure, we offer the perfect blend of professionalism, luxury, and convenience. Contact us today to discuss your transport needs or book online in just a few clicks.
+<h6 className='mt-4 mb-4'><span className="fw-bolder">   </span>Make your next journey a memorable one with our premium chauffeur services in Auckland. Whether for business or leisure, we offer the perfect blend of professionalism, luxury and convenience. Contact us today to discuss your transport needs or book online in just a few clicks.
 </h6>
 
 
@@ -203,12 +203,14 @@ function Chauffer() {
 
 
 
-<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
-<i class="fa-brands fa-whatsapp  my-float"></i></a>
 
-<a href="tel:+91 64 212845553" class="floatt" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp  my-float"></i></a>
+  
+<a href="tel:+64 212845553" class="floatt" target="_blank">
       <i class="fa-solid fa-phone-volume my-floatt"></i>
       </a>
+
 
 
 </>

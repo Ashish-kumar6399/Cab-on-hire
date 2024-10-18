@@ -71,7 +71,7 @@ function SchoolTransport() {
    <h4  className='fw-bolder '>Why Choose Our School Transport Services?</h4>
 
 
-   <h6 className='mt-4 mb-4'><span className="fw-bolder">    Safety First:</span> All our drivers are fully licensed, background-checked, and trained to provide safe, secure transportation for children of all ages. </h6>
+   <h6 className='mt-4 mb-4'><span className="fw-bolder">    Safety First:</span> All our drivers are fully licensed, background-checked and trained to provide safe, secure transportation for children of all ages. </h6>
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">   Punctual and Reliable:</span> We guarantee timely pick-up and drop-off, ensuring your child arrives at school and home on time.</h6>
 
@@ -95,7 +95,8 @@ function SchoolTransport() {
    <h4  className='fw-bolder ' style={{"marginTop":"5rem"}}>Dedicated Support for Parents</h4>
 
 
-   <h5>We understand the importance of communication and are always here to assist you:
+   <h5>We understand the importance of communication and are always here to assist you:</h5>
+
 
 
    <h6 className='mt-4 mb-4'><span className="fw-bolder">     24/7 Customer Support:</span> Our dedicated team is available around the clock to help with any queries or concerns.
@@ -106,7 +107,6 @@ function SchoolTransport() {
    </h6>
    
 
-</h5>
 
 
    
@@ -128,12 +128,15 @@ function SchoolTransport() {
 
 
 
-<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
-<i class="fa-brands fa-whatsapp  my-float"></i></a>
 
-<a href="tel:+91 64 212845553" class="floatt" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp  my-float"></i></a>
+  
+<a href="tel:+64 212845553" class="floatt" target="_blank">
       <i class="fa-solid fa-phone-volume my-floatt"></i>
       </a>
+
+
 
 
 </>

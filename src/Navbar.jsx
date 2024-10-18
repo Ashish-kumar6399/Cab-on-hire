@@ -86,7 +86,7 @@ function Navbar() {
                
                 <Link className='text-decoration-none' to="/weedingtransport">
                 <li ><a className="dropdown-item" href="#"><h6  data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"> Weeding Car Services  </h6></a></li>
+            data-bs-target="#navbarSupportedContent"> Wedding Car Services  </h6></a></li>
                 </Link>
                 <Link className='text-decoration-none' to="/chauffer">
                 <li ><a className="dropdown-item" href="#"><h6  data-bs-toggle="collapse"

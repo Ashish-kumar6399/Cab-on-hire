@@ -37,11 +37,10 @@ function About_comp() {
 
 
 
-Introducing Cab On Hire, the premier cab booking service in Auckland, where we are committed to providing you with a seamless and enjoyable travel experience. Whether you're commuting for business or leisure, our service is designed to be your go-to choice for all your transportation needs in New Zealand's vibrant city. With a strong reputation for reliability, professionalism, and customer satisfaction, we ensure that your journey with us is always smooth and stress-free.</p>
+    Introducing Cab On Hire the premier cab booking service in Auckland where we are committed to providing you with a seamless and enjoyable travel experience. Whether you're commuting for business or leisure our service is designed to be your go-to choice for all your transportation needs in New Zealand's vibrant city. With a strong reputation for reliability, professionalism and customer satisfaction, we ensure that your journey with us is always smooth and stress-free.</p>
 
 
 
-{/* <Link className='text-decoration-none text-black' to="/about"> <h3>Read more...</h3></Link> */}
                   
           </div>
 
@@ -84,7 +83,7 @@ Introducing Cab On Hire, the premier cab booking service in Auckland, where we a
 
     <div class="about_us">
         <h2 className=' fw-bolder'>Our Purpose</h2>
-        <p className=' about_para'>Our goal at Cab On Hire is to provide unmatched flexibility and convenience by making sure you have access to a wide range of superior cars that are customized to meet your specific needs. We are here to make your travel pleasant and pleasurable, whether you require a compact car for city exploration, a roomy SUV for family outings, or an elegant sedan for work. </p>
+        <p className=' about_para'>Our goal at Cab On Hire is to provide unmatched flexibility and convenience by making sure you have access to a wide range of superior cars that are customized to meet your specific needs. We are here to make your travel pleasant and pleasurable, whether you require a compact car for city exploration, a roomy SUV for family outings or an elegant sedan for work. </p>
 
               </div>
 
@@ -118,7 +117,7 @@ Introducing Cab On Hire, the premier cab booking service in Auckland, where we a
                                     <p>  <span className='fw-bold'> Customer-Centric Service:– </span>From easy booking to prompt pick-up and drop-off, our dedicated team is here to provide personalized service and support throughout your journey. </p>
                                     <p>  <span className='fw-bold'>Convenient Accessibility: –  </span> We offer multiple pick-up and drop-off locations throughout Auckland, including Auckland Airport, making it convenient for you to book a cab wherever you are. </p>
                                     <p>  <span className='fw-bold'>Commitment to Excellence:–  </span> At Cab On Hire, we pride ourselves on maintaining the highest standards of vehicle cleanliness and safety. Each cab undergoes thorough inspections to ensure it is in excellent condition for a reliable and secure ride. </p>
-                                    <p>  <span className='fw-bold'>Join the Cab On Hire Experience:–  </span>Discover the difference with Cab On Hire. Whether you're a visitor or a local, our top-notch cab service is here to enhance your travel experience. Feel free to reach out for any inquiries, bookings, or additional information. We are excited to make your journey smooth and memorable. </p>
+                                    <p>  <span className='fw-bold'>Join the Cab On Hire Experience:–  </span>Discover the difference with Cab On Hire. Whether you're a visitor or a local, our top-notch cab service is here to enhance your travel experience. Feel free to reach out for any inquiries, bookings or additional information. We are excited to make your journey smooth and memorable. </p>
                                  
 
                                   <p>We are grateful that you have selected Cab On Hire, where your trip starts in style. </p>
@@ -129,8 +128,13 @@ Introducing Cab On Hire, the premier cab booking service in Auckland, where we a
 
 
 
-                              <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
-                              <i class="fa-brands fa-whatsapp  my-float"></i></a>
+                             
+        <a href="https://api.whatsapp.com/send?phone=64 212845553&text=." class="float" target="_blank">
+  <i class="fa-brands fa-whatsapp  my-float"></i></a>
+  
+<a href="tel:+64 212845553" class="floatt" target="_blank">
+      <i class="fa-solid fa-phone-volume my-floatt"></i>
+      </a>
 
 
 
